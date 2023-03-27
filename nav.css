@@ -1,0 +1,51 @@
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 24px;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    width: 200px;
+    height: auto;
+    margin-left: 24px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin-right: 24px;
+    font-size: 24px;
+    color: white;
+}
+
+li{
+    padding: 8px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    padding: 5px;
+    background-color: rgb(141, 42, 42);
+    color: white;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.navbar{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    list-style: none;
+}
